@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-    fmt.Println("Enter an Upper Case alphabetic letter to draw a diamond!!!")
+    fmt.Println("Enter an Upper Case alphabetic letter to draw a diamond or 7 to exit!")
     var letter []byte = make([]byte, 1)
     for {
         os.Stdin.Read(letter)
