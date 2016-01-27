@@ -19,6 +19,7 @@ func main() {
             }
 
             if string(letter) == "7" {
+                fmt.Println("Goodbye, Diamond Drawer is going to sleep!!!")
                 break
             } else {
                 fmt.Println(string(letter) + " is invalid input!!!")
